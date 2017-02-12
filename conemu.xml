@@ -9,22 +9,22 @@
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
 			<value name="StartCreateDelay" type="ulong" data="100"/>
-			<value name="ColorTable00" type="dword" data="00362b00"/>
-			<value name="ColorTable01" type="dword" data="00423607"/>
-			<value name="ColorTable02" type="dword" data="00808000"/>
-			<value name="ColorTable03" type="dword" data="00a48231"/>
-			<value name="ColorTable04" type="dword" data="00164bcb"/>
-			<value name="ColorTable05" type="dword" data="00b6369c"/>
-			<value name="ColorTable06" type="dword" data="00009985"/>
-			<value name="ColorTable07" type="dword" data="00d5e8ee"/>
-			<value name="ColorTable08" type="dword" data="00a1a193"/>
-			<value name="ColorTable09" type="dword" data="00d28b26"/>
-			<value name="ColorTable10" type="dword" data="0036b64f"/>
-			<value name="ColorTable11" type="dword" data="0098a12a"/>
-			<value name="ColorTable12" type="dword" data="002f32dc"/>
-			<value name="ColorTable13" type="dword" data="008236d3"/>
-			<value name="ColorTable14" type="dword" data="000089b5"/>
-			<value name="ColorTable15" type="dword" data="00e3f6fd"/>
+			<value name="ColorTable00" type="dword" data="00222827"/>
+			<value name="ColorTable01" type="dword" data="009e5401"/>
+			<value name="ColorTable02" type="dword" data="0004aa74"/>
+			<value name="ColorTable03" type="dword" data="00a6831a"/>
+			<value name="ColorTable04" type="dword" data="00b9b9ff"/>
+			<value name="ColorTable05" type="dword" data="009c5689"/>
+			<value name="ColorTable06" type="dword" data="0049b6b6"/>
+			<value name="ColorTable07" type="dword" data="00cacaca"/>
+			<value name="ColorTable08" type="dword" data="007c7c7c"/>
+			<value name="ColorTable09" type="dword" data="00f58303"/>
+			<value name="ColorTable10" type="dword" data="0006d08d"/>
+			<value name="ColorTable11" type="dword" data="00e5c258"/>
+			<value name="ColorTable12" type="dword" data="004b04f3"/>
+			<value name="ColorTable13" type="dword" data="00b87da8"/>
+			<value name="ColorTable14" type="dword" data="0081cccc"/>
+			<value name="ColorTable15" type="dword" data="00ffffff"/>
 			<value name="ColorTable16" type="dword" data="00000000"/>
 			<value name="ColorTable17" type="dword" data="00800000"/>
 			<value name="ColorTable18" type="dword" data="00008000"/>
@@ -51,7 +51,7 @@
 			<value name="ExtendFontNormalIdx" type="hex" data="01"/>
 			<value name="ExtendFontBoldIdx" type="hex" data="0c"/>
 			<value name="ExtendFontItalicIdx" type="hex" data="0d"/>
-			<value name="CursorTypeActive" type="dword" data="000232c1"/>
+			<value name="CursorTypeActive" type="dword" data="000232c2"/>
 			<value name="CursorTypeInactive" type="dword" data="00823283"/>
 			<value name="ClipboardDetectLineEnd" type="hex" data="01"/>
 			<value name="ClipboardBashMargin" type="hex" data="00"/>
@@ -69,7 +69,7 @@
 			<value name="FadeInactiveHigh" type="hex" data="d0"/>
 			<value name="ConVisible" type="hex" data="00"/>
 			<value name="UseInjects" type="hex" data="01"/>
-			<value name="SetDefaultTerminal" type="hex" data="00"/>
+			<value name="SetDefaultTerminal" type="hex" data="01"/>
 			<value name="SetDefaultTerminalStartup" type="hex" data="00"/>
 			<value name="SetDefaultTerminalStartupTSA" type="hex" data="00"/>
 			<value name="DefaultTerminalAgressive" type="hex" data="01"/>
@@ -96,13 +96,13 @@
 			<value name="JumpListAutoUpdate" type="hex" data="01"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
 			<value name="CmdLineHistory" type="multi"/>
-			<value name="SingleInstance" type="hex" data="00"/>
+			<value name="SingleInstance" type="hex" data="01"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
 			<value name="Multi.ShowSearch" type="hex" data="01"/>
 			<value name="Multi.NumberInCaption" type="hex" data="00"/>
-			<value name="Multi.CloseConfirmFlags" type="hex" data="04"/>
+			<value name="Multi.CloseConfirmFlags" type="hex" data="00"/>
 			<value name="Multi.NewConfirm" type="hex" data="00"/>
 			<value name="Multi.DupConfirm" type="hex" data="01"/>
 			<value name="Multi.DetachConfirm" type="hex" data="01"/>
@@ -110,7 +110,7 @@
 			<value name="Multi.UseNumbers" type="hex" data="01"/>
 			<value name="Multi.UseWinTab" type="hex" data="00"/>
 			<value name="Multi.AutoCreate" type="hex" data="00"/>
-			<value name="Multi.LeaveOnClose" type="hex" data="00"/>
+			<value name="Multi.LeaveOnClose" type="hex" data="02"/>
 			<value name="Multi.HideOnClose" type="hex" data="00"/>
 			<value name="Multi.MinByEsc" type="hex" data="02"/>
 			<value name="MapShiftEscToEsc" type="hex" data="01"/>
@@ -118,8 +118,8 @@
 			<value name="Multi.SplitWidth" type="hex" data="04"/>
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
-			<value name="FontName" type="string" data=""/>
-			<value name="FontName2" type="string" data=""/>
+			<value name="FontName" type="string" data="Consolas"/>
+			<value name="FontName2" type="string" data="Consolas"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="14"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
@@ -139,7 +139,7 @@
 			<value name="bgImageColors" type="dword" data="ffffffff"/>
 			<value name="bgOperation" type="hex" data="00"/>
 			<value name="bgPluginAllowed" type="hex" data="01"/>
-			<value name="AlphaValue" type="hex" data="ff"/>
+			<value name="AlphaValue" type="hex" data="fb"/>
 			<value name="AlphaValueSeparate" type="hex" data="00"/>
 			<value name="AlphaValueInactive" type="hex" data="ff"/>
 			<value name="UserScreenTransparent" type="hex" data="00"/>
@@ -150,11 +150,11 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="65"/>
-			<value name="ConWnd Y" type="long" data="82"/>
+			<value name="ConWnd X" type="long" data="213"/>
+			<value name="ConWnd Y" type="long" data="118"/>
 			<value name="LastMonitor" type="string" data="0,0,1680,1020"/>
-			<value name="ConWnd Width" type="dword" data="00000050"/>
-			<value name="ConWnd Height" type="dword" data="00000019"/>
+			<value name="ConWnd Width" type="dword" data="000000b1"/>
+			<value name="ConWnd Height" type="dword" data="0000002f"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -225,7 +225,7 @@
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
 			<value name="Min2Tray" type="hex" data="00"/>
-			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
+			<value name="AlwaysShowTrayIcon" type="hex" data="01"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
 			<value name="FARuseASCIIsort" type="hex" data="00"/>
@@ -250,12 +250,12 @@
 			<value name="DragPanel" type="hex" data="02"/>
 			<value name="DragPanelBothEdges" type="hex" data="00"/>
 			<value name="KeyBarRClick" type="hex" data="01"/>
-			<value name="StatusBar.Show" type="hex" data="01"/>
+			<value name="StatusBar.Show" type="hex" data="00"/>
 			<value name="StatusBar.Flags" type="dword" data="00000002"/>
 			<value name="StatusFontFace" type="string" data="Segoe UI"/>
 			<value name="StatusFontCharSet" type="ulong" data="0"/>
 			<value name="StatusFontHeight" type="long" data="12"/>
-			<value name="StatusBar.Color.Back" type="dword" data="00423607"/>
+			<value name="StatusBar.Color.Back" type="dword" data="003b3b3b"/>
 			<value name="StatusBar.Color.Light" type="dword" data="00e3f6fd"/>
 			<value name="StatusBar.Color.Dark" type="dword" data="00a1a193"/>
 			<value name="StatusBar.Hide.VCon" type="hex" data="00"/>
@@ -290,9 +290,9 @@
 			<value name="StatusBar.Hide.ConEmuPID" type="hex" data="01"/>
 			<value name="StatusBar.Hide.ConEmuHWND" type="hex" data="01"/>
 			<value name="StatusBar.Hide.ConEmuView" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Srv" type="hex" data="00"/>
+			<value name="StatusBar.Hide.Srv" type="hex" data="01"/>
 			<value name="StatusBar.Hide.SrvHWND" type="hex" data="01"/>
-			<value name="StatusBar.Hide.Transparency" type="hex" data="00"/>
+			<value name="StatusBar.Hide.Transparency" type="hex" data="01"/>
 			<value name="StatusBar.Hide.New" type="hex" data="00"/>
 			<value name="StatusBar.Hide.Sync" type="hex" data="00"/>
 			<value name="StatusBar.Hide.Proc" type="hex" data="00"/>
@@ -302,8 +302,8 @@
 			<value name="Tabs" type="hex" data="01"/>
 			<value name="TabsLocation" type="hex" data="00"/>
 			<value name="TabIcons" type="hex" data="01"/>
-			<value name="OneTabPerGroup" type="hex" data="00"/>
-			<value name="ActivateSplitMouseOver" type="hex" data="01"/>
+			<value name="OneTabPerGroup" type="hex" data="01"/>
+			<value name="ActivateSplitMouseOver" type="hex" data="00"/>
 			<value name="TabSelf" type="hex" data="01"/>
 			<value name="TabLazy" type="hex" data="01"/>
 			<value name="TabFlashChanged" type="long" data="8"/>
@@ -319,14 +319,14 @@
 			<value name="TabFontHeight" type="long" data="13"/>
 			<value name="SaveAllEditors" type="string" data=""/>
 			<value name="ToolbarAddSpace" type="long" data="0"/>
-			<value name="TabConsole" type="string" data="&lt;%c&gt; %s"/>
+			<value name="TabConsole" type="string" data="%c (%s) %d&gt;"/>
 			<value name="TabModifiedSuffix" type="string" data="[*]"/>
 			<value name="TabSkipWords" type="string" data="Administrator:|Администратор:"/>
 			<value name="TabPanels" type="string" data="&lt;%c&gt; %s"/>
 			<value name="TabEditor" type="string" data="&lt;%c.%i&gt;{%s}"/>
 			<value name="TabEditorModified" type="string" data="&lt;%c.%i&gt;[%s] *"/>
 			<value name="TabViewer" type="string" data="&lt;%c.%i&gt;[%s]"/>
-			<value name="TabLenMax" type="ulong" data="20"/>
+			<value name="TabLenMax" type="ulong" data="100"/>
 			<value name="AdminTitleSuffix" type="string" data=" (Admin)"/>
 			<value name="AdminShowShield" type="hex" data="01"/>
 			<value name="HideInactiveConsoleTabs" type="hex" data="00"/>
@@ -386,7 +386,7 @@
 			<value name="Update.CheckOnStartup" type="hex" data="00"/>
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
-			<value name="Update.UseBuilds" type="hex" data="02"/>
+			<value name="Update.UseBuilds" type="hex" data="01"/>
 			<value name="Update.InetTool" type="hex" data="00"/>
 			<value name="Update.InetToolCmd" type="string" data=""/>
 			<value name="Update.UseProxy" type="hex" data="00"/>
