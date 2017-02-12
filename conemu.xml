@@ -400,7 +400,7 @@
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
 			<key name="HotKeys" modified="2017-01-01 12:00:00" build="160828">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
-				<value name="Multi.Modifier" type="dword" data="0000005b"/>
+				<value name="Multi.Modifier" type="dword" data="000000a4"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
 				<value name="MinimizeRestore" type="dword" data="000011c0"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
@@ -418,19 +418,19 @@
 				<value name="Multi.NewConsolePopup" type="dword" data="00005b4e"/>
 				<value name="Multi.NewConsolePopup2" type="dword" data="00000000"/>
 				<value name="Multi.NewAttach" type="dword" data="00005b47"/>
-				<value name="Multi.NewSplitV" type="dword" data="0010114f"/>
-				<value name="Multi.NewSplitH" type="dword" data="00101145"/>
-				<value name="Multi.SplitMaximize" type="dword" data="00005d0d"/>
-				<value name="Multi.SplitSizeVU" type="dword" data="00105d26"/>
-				<value name="Multi.SplitSizeVD" type="dword" data="00105d28"/>
-				<value name="Multi.SplitSizeHL" type="dword" data="00105d25"/>
-				<value name="Multi.SplitSizeHR" type="dword" data="00105d27"/>
+				<value name="Multi.NewSplitV" type="dword" data="0000a456"/>
+				<value name="Multi.NewSplitH" type="dword" data="0000a448"/>
+				<value name="Multi.SplitMaximize" type="dword" data="0000a446"/>
+				<value name="Multi.SplitSizeVU" type="dword" data="00a4a24c"/>
+				<value name="Multi.SplitSizeVD" type="dword" data="00a4a24b"/>
+				<value name="Multi.SplitSizeHL" type="dword" data="00a4a24a"/>
+				<value name="Multi.SplitSizeHR" type="dword" data="00a4a2ba"/>
 				<value name="Key.TabPane1" type="dword" data="00005d09"/>
 				<value name="Key.TabPane2" type="dword" data="00105d09"/>
-				<value name="Multi.SplitFocusU" type="dword" data="00005d26"/>
-				<value name="Multi.SplitFocusD" type="dword" data="00005d28"/>
-				<value name="Multi.SplitFocusL" type="dword" data="00005d25"/>
-				<value name="Multi.SplitFocusR" type="dword" data="00005d27"/>
+				<value name="Multi.SplitFocusU" type="dword" data="0000a44c"/>
+				<value name="Multi.SplitFocusD" type="dword" data="0000a44b"/>
+				<value name="Multi.SplitFocusL" type="dword" data="0000a44a"/>
+				<value name="Multi.SplitFocusR" type="dword" data="0000a4ba"/>
 				<value name="Multi.Next" type="dword" data="00005b51"/>
 				<value name="Multi.NextShift" type="dword" data="00105b51"/>
 				<value name="Multi.Recreate" type="dword" data="00005bc0"/>
@@ -440,8 +440,8 @@
 				<value name="Multi.GroupInput" type="dword" data="00005d47"/>
 				<value name="Multi.Detach" type="dword" data="00000000"/>
 				<value name="Multi.Unfasten" type="dword" data="00000000"/>
-				<value name="Multi.Close" type="dword" data="00005b2e"/>
-				<value name="CloseTabKey" type="dword" data="00125b2e"/>
+				<value name="Multi.Close" type="dword" data="0000a257"/>
+				<value name="CloseTabKey" type="dword" data="00000000"/>
 				<value name="CloseGroupKey" type="dword" data="00115b2e"/>
 				<value name="CloseGroupPrcKey" type="dword" data="00000000"/>
 				<value name="CloseAllConKey" type="dword" data="00000000"/>
@@ -450,7 +450,7 @@
 				<value name="KillProcessKey" type="dword" data="00121103"/>
 				<value name="KillAllButShellKey" type="dword" data="00125b13"/>
 				<value name="DuplicateRootKey" type="dword" data="00005b53"/>
-				<value name="CloseConEmuKey" type="dword" data="00005b73"/>
+				<value name="CloseConEmuKey" type="dword" data="00a0a445"/>
 				<value name="Multi.Rename" type="dword" data="00005d52"/>
 				<value name="AffinityPriorityKey" type="dword" data="00005d41"/>
 				<value name="Multi.MoveLeft" type="dword" data="00125b25"/>
@@ -510,10 +510,10 @@
 				<value name="PasteFileKey" type="dword" data="00101146"/>
 				<value name="PastePathKey" type="dword" data="00101144"/>
 				<value name="PasteCygwinKey" type="dword" data="00005d2d"/>
-				<value name="KeyMacro01" type="dword" data="00000000"/>
-				<value name="KeyMacro01.Text" type="string" data=""/>
-				<value name="KeyMacro02" type="dword" data="00000000"/>
-				<value name="KeyMacro02.Text" type="string" data=""/>
+				<value name="KeyMacro01" type="dword" data="00a0a451"/>
+				<value name="KeyMacro01.Text" type="string" data="Close(1,1); Close(0)"/>
+				<value name="KeyMacro02" type="dword" data="0000a254"/>
+				<value name="KeyMacro02.Text" type="string" data="Shell(&quot;new_console&quot;)"/>
 				<value name="KeyMacro03" type="dword" data="00000000"/>
 				<value name="KeyMacro03.Text" type="string" data=""/>
 				<value name="KeyMacro04" type="dword" data="00000000"/>
