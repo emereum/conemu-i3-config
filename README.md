@@ -9,6 +9,7 @@ A ConEmu configuration script which approximates i3 window manager keybindings.
 | Create new split (horizontally/vertically) | LAlt+(H/V)           |
 | Focus console (left/down/up/right)         | LAlt+(J/K/L/;)       |
 | Grow/shrink current split                  | LAlt+LCtrl+(J/K/L/;) |
+| Kill current process (violently)           | LCtrl+X              |
 | Close current console (violently)          | LAlt+LShift+Q        |
 | Close current console (gently)             | LCtrl+W              |
 | Toggle maximise current console            | LAlt+F               |
